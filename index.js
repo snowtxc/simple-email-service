@@ -10,6 +10,8 @@ app.use(bodyParser.json())
 
 const { createTransport } = require('nodemailer');
 
+console.log(process.env.FROM);
+
 const transporter = createTransport({
     host: process.env.HOST,
     port: process.env.PORT,
