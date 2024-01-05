@@ -1,3 +1,0 @@
-[build]
-command = "npm run build"  # Adjust this to your build script
-publish = "dist"           # Adjust this to your build output directory
